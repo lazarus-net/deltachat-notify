@@ -1,0 +1,9 @@
+# Chatmail invite users
+# One username per line (for your reference only - not used as email address)
+# Generate tokens: make settings=my_chatmail_server generate_chatmail_tokens
+# Deploy:          make settings=my_chatmail_server deploy_chatmail_users
+# Show invite:     make settings=my_chatmail_server show_chatmail_invite USERNAME=alice
+alice
+bob
+echo
+delta

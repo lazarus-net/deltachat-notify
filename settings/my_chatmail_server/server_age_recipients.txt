@@ -1,0 +1,2 @@
+# Replace with your age public key: age-keygen -o key.txt && age-keygen -y key.txt
+# age1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

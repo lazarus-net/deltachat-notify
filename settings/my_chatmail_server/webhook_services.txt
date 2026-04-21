@@ -1,0 +1,17 @@
+# Deltachat webhook services
+# One service name per line. Lines starting with # are comments.
+#
+# Each service gets:
+#   - An auth token (age-encrypted): settings/my_chatmail_server/webhook_tokens/<name>.age
+#   - A Delta Chat group: settings/my_chatmail_server/webhook_groups/<name>.group_id
+#
+# To register a new service:
+#   1. Add service name below
+#   2. Run: make settings=my_chatmail_server register_webhook_service SERVICE=<name>
+#   3. Run: make settings=my_chatmail_server show_webhook_token SERVICE=<name>
+#      (put this token in the calling service config)
+#
+# example-service
+test-service-a
+test-service-b
+test-service-c
