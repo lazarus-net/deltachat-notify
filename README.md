@@ -1,4 +1,4 @@
-# mdist-light
+# deltachat-notify
 
 Author: vld.lazar@proton.me
 Copyright (C) 2026 vld.lazar@proton.me
