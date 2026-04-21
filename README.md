@@ -174,13 +174,3 @@ See `docs/adr/0000-index.md` for the full list. Key decisions:
 | #0028 | Go binary webhook bot wrapping deltachat-rpc-server |
 | #0012 | POSIX sh only in all shell scripts |
 | #0010 | Remote deployment via SSH + rsync |
-
-## Version Control
-
-This project uses [Fossil](https://fossil-scm.org/).
-
-```sh
-fossil timeline -n 10   # Recent history
-fossil status           # Changed files
-fossil commit -m "msg"  # Commit
-```
